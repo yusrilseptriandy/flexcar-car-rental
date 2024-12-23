@@ -1,4 +1,36 @@
+# Rental Car Application
+
+A complete car rental system with dashboard functionality for managing bookings, cars, and users.
+
+---
+
+## Features
+- **Car Management:** Add, edit, and remove car listings.
+- **Booking System:** Manage car rental bookings.
+- **Dashboard:** Provides an overview of system statistics and activities.
+
+---
+
+## Home Page
+
+![Screenshot 2024-12-23 030824](https://github.com/user-attachments/assets/4fc0b32e-52b8-409c-beab-c7dd97c2bcec)
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+
+## Detail Car Page
+![Screenshot 2024-12-23 223543](https://github.com/user-attachments/assets/bc56c7da-3f08-4e9c-b27e-adb6e8cd77d8)
+
+## Checkout Page
+![Screenshot 2024-12-23 223605](https://github.com/user-attachments/assets/39c5dcf1-8646-4c3b-869d-3b0077ac18e1)
+
+## Payment Page
+![Screenshot 2024-12-23 223811](https://github.com/user-attachments/assets/201fbbcf-6121-4b87-9d06-8684b3fcf7fb)
+
+## My-order Page
+![Screenshot 2024-12-23 223832](https://github.com/user-attachments/assets/55c9411a-6cde-4ebf-80f6-40bac7a07c68)
+
+
+
+
 
 <p align="center">
 <a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
