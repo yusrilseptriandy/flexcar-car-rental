@@ -36,6 +36,9 @@ Route::name('front.')->group(function () {
         Route::get('/payment/{bookingId}', [PaymentController::class, 'index'])->name('payment');
         
         Route::post('/payment/{bookingId}', [PaymentController::class, 'update'])->name('payment.update');
+
+        Route::get('/my-orders', [BookingController::class, 'myOrders'])->name('my.orders');
+
     });
 });
 

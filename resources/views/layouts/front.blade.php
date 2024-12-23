@@ -57,7 +57,7 @@
              @auth
 
                 @if(auth()->user() == true)
-                  <a href="#!" class="nav-link-item">My Order</a>
+                  <a href="{{ route('front.my.orders') }}" class="nav-link-item">My Order</a>
               <a href="#!" class="nav-link-item">Profile</a>
                 
 

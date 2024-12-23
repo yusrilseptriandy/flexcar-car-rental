@@ -138,6 +138,16 @@ class BookingController extends Controller
 
         return redirect()->route('bookings.index');
     }
+
+    public function myOrders()
+    {
+        $bookings = Booking::where('user_id', Auth::id())
+            ->with('item')
+            ->orderBy('created_at', 'desc')
+            ->get();
+
+        return view('my-orders', compact('bookings'));
+    }
 }
 
 
